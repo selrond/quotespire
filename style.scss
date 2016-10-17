@@ -1,0 +1,74 @@
+$cl-bg-1: lightcoral;
+$cl-bg-2: lightblue;
+$cl-fade: #B2B2B2;
+$cl-text: #222222;
+$p-bottom: 2rem;
+
+* {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+
+html {
+	height: 100%;
+	font-family: 'Vollkorn', serif;
+	font-size: 16px;
+}
+
+body {
+	min-height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.quote {
+	padding: 2em;
+	min-width: 10em;
+	max-width: 60em;
+	box-shadow: 5px 5px 31px -11px rgba(0, 0, 0, 0.23);
+	border-radius: .1em;
+	color: $cl-text;
+}
+
+.quote-mark {
+	padding: $p-bottom 0;
+	svg {
+		display: block;
+		margin: 0 auto;
+		fill: $cl-text;
+	}
+}
+
+.quote-content {
+	padding: .2em 2em $p-bottom 2em;
+}
+
+.quote-text {
+	font-size: 2em;
+	text-align: center;
+	padding-top: .2em;
+}
+
+.quote-author {
+	font-size: 2em;
+	font-style: italic;
+	color: $cl-fade;
+	text-align: center;
+	//background: $cl-bg-2;
+}
+
+.icons {
+	text-align: center;
+	.fa {
+		display: inline-block;
+		transition: color .5s ease;
+		color: $cl-fade;
+		padding: 0 .15em;
+		&:hover {
+			transition: color .5s ease;
+			color: $cl-text;
+		}
+	}
+}
