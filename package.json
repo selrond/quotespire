@@ -21,5 +21,12 @@
   "bugs": {
     "url": "https://github.com/selrond/quotespire/issues"
   },
-  "homepage": "https://github.com/selrond/quotespire#readme"
+  "homepage": "https://github.com/selrond/quotespire#readme",
+  "devDependencies": {
+    "browser-sync": "^2.17.3",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-sass": "^2.3.2"
+  }
 }
